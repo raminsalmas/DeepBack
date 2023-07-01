@@ -1,18 +1,23 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# ==============================================================================================
+# DeepBack is a deep learning model that performs the back-exchange procedure for HDX-MS data.
+# ==============================================================================================
+
+
+
+
+
 import numpy as np
 import matplotlib.pyplot as plt
-#%matplotlib inline 
 import numpy as np
-from numpy import loadtxt
 from keras.models import Sequential, model_from_json, load_model
 from keras.layers import Dense, Dropout
 from keras import metrics, regularizers
 import tensorflow as tf
 from scipy.special import softmax
 from sklearn.preprocessing import minmax_scale 
-#from keras.callbacks import EarlyStopping
 from tensorflow.keras.callbacks import EarlyStopping
 from keras.constraints import unit_norm
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
@@ -152,8 +157,6 @@ if run== "prediction":
 # =============================================================================
 #         Validation with RFU values
 # =============================================================================
-
-
 
 def backexc(RFU, BEX, FEX):
     return (RFU - FEX)/(BEX - FEX)

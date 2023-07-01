@@ -1,2 +1,1 @@
-A deep learning approach was utilised to develop a model capable of predicting corrected mass shifts in hydrogen-deuterium exchange mass spectrometry (HDX-MS) profiles. The model was trained using experimentally corrected HDX data to develop an input-output mapping.
-
+A deep learning approach was utilised to develop a model capable of predicting corrected mass shifts in hydrogen-deuterium exchange mass spectrometry (HDX-MS) profiles. To construct an input-output black-box mapping, the model was trained using experimentally corrected HDX data.

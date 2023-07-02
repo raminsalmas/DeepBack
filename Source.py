@@ -100,10 +100,10 @@ plt.ylabel('Loss')
 plt.xlabel('Epoch')
 plt.legend( loc=0, ncol=2, frameon=False)
 
-plt.savefig(path + "%.6f.png" %(R), facecolor='w',dpi=300, edgecolor='w',
+plt.savefig(path + "xx.png", facecolor='w',dpi=300, edgecolor='w',
         orientation='portrait', papertype='legal', format="png",
         transparent=None, bbox_inches="tight", frameon=None,)
-with open(path + "%.6f_history" %(R), 'wb') as file_pi:
+with open(path + "xx_f_history", 'wb') as file_pi:
     pickle.dump(history.history, file_pi)
 plt.show()
 

@@ -20,7 +20,14 @@ class MyModel:
     def build_model(self):
         inputs_s1 = keras.Input(shape=(1), name="RFU")
         features = layers.Dense(1000, activation='relu', name="1000")(inputs_s1)
-        # ... add more layers here ...
+        features = layers.Dense(800, activation='relu', name="800")(features)
+        features = layers.Dense(500, activation='relu', name="500")(features)
+        features = layers.Dense(150, activation='relu', name="150")(features)
+        features = layers.Dense(100, activation='relu', name="100")(features)
+        features = layers.Dense(150, activation='relu', name="150_")(features)
+        features = layers.Dense(500, activation='relu', name="500_")(features)
+        features = layers.Dense(800, activation='relu', name="800_")(features)
+        features = layers.Dense(1000, activation='relu', name="1000_")(features)
         features_2 = layers.Dense(1, name="FEX")(features)
         features_3 = layers.Dense(1, name="BEX")(features)
         self.model = keras.Model(inputs=inputs_s1, outputs=[features_2, features_3])

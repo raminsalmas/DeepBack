@@ -15,7 +15,7 @@ source myenv/bin/activate      # On Windows, use: myenv\Scripts\activate
 
 
 
-2. Install Dependencies
+ 2. Install Dependencies
 
 Once you have your virtual environment activated (if you're using one), navigate to the project directory and install the dependencies using the pip command:
 
@@ -25,7 +25,8 @@ Once you have your virtual environment activated (if you're using one), navigate
 
 
 This command reads the requirements.txt file and installs the specified packages along with their versions.
-3. Verifying Installation
+
+ 3. Verifying Installation
 
 After the installation is complete, you can verify that the required packages are installed in your environment by using the following command:
 
@@ -34,7 +35,7 @@ After the installation is complete, you can verify that the required packages ar
 
 
 This will display a list of installed packages along with their versions.
-4. Running the Code
+ 4. Running the Code
 
 With the dependencies installed, you can now run your code as usual. For example, you can execute your script using:
 

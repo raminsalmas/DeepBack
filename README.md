@@ -40,7 +40,7 @@ This will display a list of installed packages along with their versions.
 With the dependencies installed, you can now run your code as usual. For example, you can execute your script using:
 
 <pre>
-  python DeepBack.py
+  python Source.py
 </pre>
 
 

@@ -38,7 +38,7 @@ This will display a list of installed packages along with their versions.
 
  4. Running the Code
 
-With the dependencies installed, you can now run your code as usual. For example, you can execute the script using:
+With the dependencies installed, you can now run the code as usual. For example, you can execute the script using:
 
 <pre>
   python Source.py

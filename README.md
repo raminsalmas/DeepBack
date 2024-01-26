@@ -44,4 +44,7 @@ With the dependencies installed, you can now run the code as usual. For example,
   python Source.py
 </pre>
 
+If you use this code in your research, please cite the following published paper:
+https://pubs.acs.org/doi/10.1021/jasms.3c00285
+
 
